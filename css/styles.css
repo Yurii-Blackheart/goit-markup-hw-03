@@ -1,9 +1,7 @@
 
 body {
     
-    font-family: "Roboto",
-    font-style: normal;
-    letter-spacing: 0.03em;
+    font-family: "Roboto"
     color: var(--text-main-color)
 }
 
@@ -245,6 +243,12 @@ ul {
 .people-list {
     display: flex;
 }
+
+.people-item {
+    background: #FFFFFF;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px
+}
 .people-item:not(:last-child) {
     margin-right: 30px;
 }
@@ -274,6 +278,7 @@ ul {
     background-color: var(--hero-back-color);  
 }
 .address-footer {
+    font-style: normal;
     margin-top: 20px;
     font-weight: 400;
     font-size: 14px;
@@ -282,10 +287,12 @@ ul {
     color: var(--text-white-color);
 }
 .link-footer {
+    
     letter-spacing: 0.03em;
     color: var(--link-footer-color);
 }
 .footer-contact-item {
+    
     margin-top: 9px;
 }
 .logo-footer {
@@ -367,6 +374,7 @@ ul {
 }
 
 .example-simpled-header {
+    
     margin-top: 0;
     margin-bottom: 4px;
     font-size: 18px;
